@@ -1,0 +1,34 @@
+.riglef{
+    margin-left: 75px;
+    margin-right: 75px;
+}
+
+.transparant{
+    background-color: rgba(225,225,225,0.3);
+    width: 1410px;
+    margin: 25px;
+    padding: 25px;
+    text-align: center;
+}
+
+.mid{
+    background-color: rgba(225, 225, 225, 0.7);
+    width: 800px;
+    margin: 20px auto;
+    padding: 25px;  
+    border-radius: 3%;
+}
+
+.bg{
+    background: url(BG.jpg);
+    background-size: cover; 
+    background-attachment: fixed;
+}
+
+.senter{
+    text-align: center;
+}
+
+.lepf{
+    text-align: left;
+}
