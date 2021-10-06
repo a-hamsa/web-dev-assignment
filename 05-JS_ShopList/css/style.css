@@ -1,0 +1,197 @@
+.txt h1{
+    color: white;
+}
+.txt1 p{
+    color: white;
+}
+/*Navigation Font*/
+.nav-font{
+    color: white;
+    font-family: 'Times New Roman';
+    margin-left: 40px;
+}
+
+/*Background*/
+.wall-white{
+    background: url(BG.jpg);
+    background-size: cover; 
+    background-attachment: fixed;
+}
+
+.wall-dark{
+    background: url(BG-dark.png);
+    background-size: cover; 
+    background-attachment: fixed;
+}
+
+/*Parapgraph Prodi*/
+.paragraph-pro #white{
+    color: white;
+}
+
+/*Buttons*/
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+}
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: gray;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+input:checked + .slider {
+    background-color: #000;
+}
+  
+input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+}
+  
+  /* Rounded sliders */
+.slider.round {
+    border-radius: 34px;
+}
+  
+.slider.round:before {
+    border-radius: 50%;
+}
+
+/*Shopping list*/
+.list-item{
+    margin-bottom: 8px;
+}
+.list-item > p, button{
+    display: inline;
+}
+.list-item > p {
+    margin-right: 8px;
+}
+
+/*Button style for cart*/
+.button {
+    display: inline-block;
+    border-radius: 5px;
+    background-color: #0062ff;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 28px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+  }
+  
+  .button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .button:hover span {
+    padding-right: 25px;
+  }
+  
+  .button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
+  input {
+    border: 5px black; 
+    border-radius: 5px;
+    -webkit-box-shadow: 
+      inset 0 0 8px  rgba(0,0,0,0.1),
+            0 0 16px rgba(0,0,0,0.1); 
+    -moz-box-shadow: 
+      inset 0 0 8px  rgba(0,0,0,0.1),
+            0 0 16px rgba(0,0,0,0.1); 
+    box-shadow: 
+      inset 0 0 8px  rgba(0,0,0,0.1),
+            0 0 16px rgba(0,0,0,0.1); 
+    padding: 15px;
+    background: rgba(230,230,230,0.7);
+    margin: 0 0 10px 0;
+}
+
+.button3 {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #f44336;
+    border-radius: 10px;
+    margin-left: 10px;
+  }
+  
+  .button3:hover {
+    background-color: #f44336;
+    color: white;
+  }
+
+
+  .cloudy { 
+    border-radius: 5px;      
+    background:linear-gradient( to top right, rgba(63,81,181,1) 0%, rgba(3,155,229 ,1) 40%);
+    box-shadow: 1px 1px 30px rgba(2,119,189 ,0.7); 
+    margin-left: 10px;
+}
+
+.li-Style{
+    background-color: #fff;
+    box-shadow: 0 2px 8px rgba(0,0,0,.7);
+    border-radius: 3px;
+    transition: .4s;
+    width: auto;
+}
+
+.marketBox{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+  background-color: #fafafa;
+  box-shadow: 0 2px 8px rgba(0,0,0,.65);
+  width: 600px;
+  height: auto;
+  text-align: left;
+  border-radius: 5px;
+}
+
+.txt-p{
+  padding-right: 5px;
+}

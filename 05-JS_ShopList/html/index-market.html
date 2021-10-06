@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+        <link rel="stylesheet" href="C:\Users\ROG G531GD\Documents\Code S3\Pekan3\css\style.css">
+        <title>Market</title>
+        <script defer src="C:\Users\ROG G531GD\Documents\Code S3\Pekan3\js\script.js"></script>
+        <script defer src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous"></script>
+        <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js" integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script>
+    </head>
+    <body class="wall-white">
+        <nav class="navbar navbar-expand-lg navbar-light bg-dark fixed-top">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html"><h2 class="nav-font">My Profile</h2></a>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index-prodi.html"><h2 class="nav-font">Program Studi</h2></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="index-country.html"><h2 class="nav-font">Country</h2></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="index-market.html"><h2 class="nav-font">Market</h2></a>
+                        </li>
+                    </ul>
+                </div>
+                <ul class="nav-item">
+                    <label class="switch">
+                        <input id="buttons" onclick="toggleModeMarket()" type="checkbox">
+                        <span class="slider round"></span>
+                    </label>
+                </ul>
+            </div>
+        </nav>
+
+        <main>
+            <div class="mt-5 py-5 container marketBox">
+                <section >
+                    <h1 class="display-2 text-center mb-5">Market</h1>
+                    <input placeholder="Insert Item Name" type="text" id="input-item">
+                    <button id="btn-add-item" class="button" style="vertical-align:middle" onclick="marketBtn()"><span>Add to Cart</span></button>
+                </section>
+                <section>
+                    <h1 class="display-6" >Carts:</h1>
+                    <ul class="list"></ul>
+                </section>
+            </div>
+        </main>
+    </body>
+</html>
